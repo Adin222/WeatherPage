@@ -11,7 +11,7 @@ function search(event) {
 }
 
 async function fetchData(city) {
-  const apiCallCity = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+  const apiCallCity = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
   try {
     const response = await fetch(apiCallCity);
     const data = await response.json();
