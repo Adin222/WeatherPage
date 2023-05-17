@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Weather</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="name">Live Weather</h2>
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            id="searchTerm"
+            placeholder="Weather search"
+          />
+          <button type="submit" class="searchButton" id="searchButton">
+            <p>search</p>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div>
+      <h2>
+        Please find the weather for a city by entering the city name in the
+        search bar.
+      </h2>
+    </div>
+    <div id="weatherDataDiv"></div>
+    <footer>
+      <img class="img" src="weatherLogo.png" />
+      <h4>
+        This product uses the Weather API but is not endorsed or certified by
+        Weather API.
+      </h4>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
