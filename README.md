@@ -1,3 +1,3 @@
 # WeatherWebsite
 
-A simple project using weather API 
+Simple project using weather API 
