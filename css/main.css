@@ -71,7 +71,7 @@ h2 {
   background-color: var(--secondaryColor);
 }
 #weatherDataDiv {
-  background-color: white;
+  background-color: var(--textColor);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -133,6 +133,27 @@ h4 {
     color: #9dbfaf;
   }
 }
+@media only screen and (max-width: 600px) {
+  footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  img {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #weatherDataDiv {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    width: 60%;
+    border-radius: 10px;
+    opacity: 0.75;
+  }
+}
 @media only screen and (max-width: 473px) {
   .name {
     font-size: 20px;
@@ -149,7 +170,7 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     width: 60%;
     border-radius: 10px;
     opacity: 0.75;
